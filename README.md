@@ -8,13 +8,12 @@
 ## Training Results
 - The settings of the image size can be tuned depending on your experiments
 - This code takes the image into 224x224 size image
-<img src="example-images/accuracy graph.png" alt="augdog5" width="500">
 
 1. Training Accuracy
-<img src="example-images/training results.png" alt="augdog5" width="600">
+<img src="example-images/accuracy.png" alt="augdog5" width="300">
 
 2. Testing Acccuracy
-<img src="example-images/loss graph.png" alt="augdog5" width="500">
+<img src="example-images/loss.png" alt="augdog5" width="300">
 
 ## Testing Results
 - Inference was done using the Intel_CNN_Inference.ipynb script in this repo
@@ -25,6 +24,8 @@
    > Masking the Image </br>
    > Unmasking the Image (normal)
 - Refer to https://github.com/AimanHadif/Image-Masking for details on Masked Image
+- Example output will produce the file for class and the each image predicted in the class, the visualization (pie/bar), and csv file of the filename and the predicted label
+<img src="example-images/example output.png" alt="output" width="800">
 
 1. Pie w/ Mask
 <img src="example-images/pie mask.png" alt="augdog5" width="300">   
@@ -33,7 +34,7 @@
 3. Pie (Both Mask and No Mask)
 <img src="example-images/pie both.png" alt="augdog5" width="600">   
 4. Bar w/ Mask
-<img src="example-images/bar mask.png" alt="augdog5" width="300">   
+<img src="example-images/bar no mask.png" alt="augdog5" width="300">   
 5. Bar (Both Mask and No Mask)
 <img src="example-images/bar both.png" alt="augdog5" width="600">  
 
