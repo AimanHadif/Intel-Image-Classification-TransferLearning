@@ -1,8 +1,8 @@
 # Intel-Image-Classification-Transfer Learning
 - Using MobileNet : https://pytorch.org/hub/pytorch_vision_mobilenet_v2/
-- This was a continuation from my other repository : https://github.com/AimanHadif/Intel-Image-Classification
+- This was a continuation of my other repository: https://github.com/AimanHadif/Intel-Image-Classification which tackles the image classification tasks using Deep Learning (CNN)
 - Image classification using Transfer Learning (Pretrained Model) PyTorch format of Intel Image Classification dataset
-- Link to Dataset : https://www.kaggle.com/datasets/puneet6060/intel-image-classification
+- Link to Dataset: https://www.kaggle.com/datasets/puneet6060/intel-image-classification
 - The model manages to get 92.93% Training Accuracy and 83.63% Testing Accuracy
 
 ## Training Results
@@ -12,7 +12,7 @@
 1. Training Accuracy
 <img src="example-images/accuracy.png" alt="augdog5" width="300">
 
-2. Testing Acccuracy
+2. Testing Accuracy
 <img src="example-images/loss.png" alt="augdog5" width="300">
 
 ## Testing Results
@@ -24,7 +24,7 @@
    > Masking the Image </br>
    > Unmasking the Image (normal)
 - Refer to https://github.com/AimanHadif/Image-Masking for details on Masked Image
-- Example output will produce the file for class and the each image predicted in the class, the visualization (pie/bar), and csv file of the filename and the predicted label
+- Example output will produce the file for class and the each image predicted in the class, the visualization (pie/bar), and CSV file of the filename and the predicted label
 <img src="example-images/example output.png" alt="output" width="800">
 
 1. Pie w/ Mask
@@ -39,6 +39,6 @@
 <img src="example-images/bar both.png" alt="augdog5" width="600">  
 
 ## Error
-- There should not be any error unless you've changed the input size, and the number of class. If that is the case then refer back to the CNN architecture to adjust the output number and the image size on the final layer
+- There should not be any error unless you've changed the input size, and the number of classes. If that is the case then refer back to the CNN architecture to adjust the output number and the image size on the final layer
 - If you found any error while implementing this code with different datasets. Please understand the code completely especially in the inference script
-- If the error is still unsolvalbe, feel free to reach me
+- If the error is still unsolvable, feel free to reach me
