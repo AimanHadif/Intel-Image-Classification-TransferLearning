@@ -3,7 +3,7 @@
 - This was a continuation of my other repository: https://github.com/AimanHadif/Intel-Image-Classification which tackles the image classification tasks using Deep Learning (CNN)
 - Image classification using Transfer Learning (Pretrained Model) PyTorch format of Intel Image Classification dataset
 - Link to Dataset: https://www.kaggle.com/datasets/puneet6060/intel-image-classification
-- The model manages to get 92.93% Training Accuracy and 83.63% Testing Accuracy
+- The model manages to get 92.93% Training Accuracy and 83.63% Testing Accuracy which performs better than CNN (https://github.com/AimanHadif/Intel-Image-Classification)
 
 ## Training Results
 - The settings of the image size can be tuned depending on your experiments
